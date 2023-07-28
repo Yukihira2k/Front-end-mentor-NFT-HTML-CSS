@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.flex-box{
+    flex-direction: column;
+    display: flex;
+    width: auto;
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+ 
+}
+.NFT{
+    width: 250px;
+    border-radius: 30px;
+    padding:25px;
+    display: block;
+}
+.hover{
+    border-radius: 8px;
+    width:250px;
+    height: 250px;
+    margin: 25px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.hover:hover{
+   opacity: 1;
+   background-color: hsl(178, 100%, 50%, 30%) ;
+  
+}
+h1{
+    padding:0px 0px 15px 25px ;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.details{
+    font-size: 16px;
+    padding:0px 0px 25px 25px;
+    width:264px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+.flex{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    padding:0px 25px 25px 25px;
+    align-items: center;
+    font-size: 14px;
+}
+.eth{
+    padding-right:3%;
+}
+.eth-color{
+   color: hsl(178, 100%, 50%);
+}
+.days-color{
+    color: hsl(215, 51%, 70%);
+}
+.clock{
+    padding-left:25%;
+    padding-right:2%;
+}
+hr{
+    width:250px;
+    margin: auto;
+    border: 1px solid hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+}
+.bottom{
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-bottom:25px;
+    padding-top:15px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    
+}
+.bottom img{
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0px  10px 0px 25px;
+}
+.bottom span{
+    color: hsl(215, 51%, 70%);
+}
+footer{
+    color: white;
+}
